@@ -15,8 +15,10 @@ public class VirtualMemoryAddressConverter {
 	}
 	
 	public void virtualAddress2PhysicalAddress(int virtualAddressInDecimalFormat){
+		
 		String pageNumInBinaryFormat = getPageNumInBinaryFormat(virtualAddress, 32);
 		getFrameAddressInBinaryFormat(pageNumInBinaryFormat);
+		
 		//return "";
 	}
 	
